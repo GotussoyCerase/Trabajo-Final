@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content</title>
+    <link rel="stylesheet" href="style/style.css">
+    <style>
+        label{
+            display: block;
+            float: left;;
+            width: 70px;
+        }
+    </style>
+    <script src="Javascript/app.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img src="img/sj.png" alt="san joaquin logo">
+            <nav class="elnav">
+                <a href="index.html">Pagina Principal</a>
+                <a href="noticias.html">Noticias</a>
+            </nav>
+        </div>
+    </header>
+    <section class="sectionformulario">
+        <p class="mensajeformulario">ingresa la informacion solicitada en los campos</p>
+    </section>
+    <form action="">
+        <div>
+            <label for="Nombre">Nombre</label>
+            <input type="Nombre" id="Nombre" name="nombre" required>
+            </input>
+        </div>
+        <div>
+            <label for="Apellido">Apellido</label>
+            <input type="Apellido" id="Apellido" name="Apellido" required>
+            </input>
+        </div>
+        <div>
+            <label for="Email">Email</label>
+            <input type="Email" id="Email" name="Email" required>
+            </input>
+        </div>
+        <div>
+            <label for="Telefono">Telefono</label>
+            <input type="Telefono" id="Telefono" name="Telefono" required>
+            </input>
+        </div>
+        <div>
+            <label for="Alumno">Alumno</label>
+            <input type="Alumno" id="Alumno" name="Alumno" required>
+            </input>
+        </div>
+        <input type="submit" onclick="return enviarFormulario();" value="Enviar"></input>
+    </form>
+    <div id="error">
+    </div>
+    <div class="contactonoformulario">
+        <section>
+            <p class="encasode">en caso de no poder usar el formulario o tener algun problema, siempre puede contactarse a nuestro telefono!</p>
+        </section>
+    </div>
+    <div class="semifooter">
+        <section class="info">
+            <p>San Juan 4570 - Villa Ballester,<br>B1653AVX Buenos Aires, Argentina.<br>Tel.: 5411 4767 3211<br>recepcion@colegiosanjoaquin.edu.ar</p>
+        </section>
+        <aside>
+            <img src="img/qr.png" alt="qr">
+        </aside>
+    </div>
+    <footer class="footer">
+        <p>© 2015 San Joaquin School    |   Nro.DIEGEP: Inicial 2812 - Primaria 1369 - Secundaria 7864</p>
+    </footer>
+</body>
+</html>

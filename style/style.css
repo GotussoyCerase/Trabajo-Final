@@ -1,0 +1,189 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+    padding: 15px;
+}
+
+.elnav{
+    background-color: green;
+    font-size: x-large;
+    padding: 15px;
+}
+
+.primersection{
+    text-align: center;
+    
+}
+
+.segundosection{
+    text-align: center;
+    
+}
+
+.texto{
+    color: green;
+    
+}
+
+.inscripciones{
+    background-color: green;
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+}
+
+.pclass{
+    color: green;
+    padding: 16px;
+}
+
+.enfoquecomunicativo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabla{
+    display: flex;
+    width: 30%;
+}
+
+.Daleatuhijolaoportunidad{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tercersection{
+    display: flex;
+    background-color: green;
+    text-align: left;
+    font-size: xx-large;
+}
+
+.idiomas{
+    display: flex;
+    color: green;
+    justify-content: center;
+}
+
+.tabladeidiomas{
+    display: flex;
+    justify-content: center;
+}
+
+.mandela{
+    background-color: rgb(0, 102, 255);
+}
+
+.educacion{
+    font-size: xx-large;
+    color: white;
+}
+
+.nelson{
+    color: white;
+}
+
+.info{
+    color: white;
+    padding: 16px;
+}
+
+.semifooter{
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+
+.sectionformulario{
+    background-color: yellow;
+    text-align: center;
+}
+
+.mensajeformulario{
+    font-size: xx-large;
+}
+
+.MDP{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(252, 139, 10);
+}
+
+.cosas{
+    color: red;
+}
+
+.objetos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.viaje25{
+    font-size: large;
+}
+
+.matematica{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(252, 139, 10);
+}
+
+.mes{
+    font-size: large;
+}
+
+.top10{
+    display: flex;
+    justify-content: space-between;
+}
+
+.listado{
+    color: red;
+}
+
+.instrumentos{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(252, 139, 10);
+}
+
+.informacioninstrumentos{
+    font-size: large;
+}
+
+.divinstrumentostitulo{
+    display: flex;
+    justify-content: center;
+}
+
+.tituloinstrumentos{
+    color: red;
+}
+
+.fotosinstrumentos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactonoformulario{
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+}
+
+.encasode{
+    font-size: x-large;
+}
+
+.alineacion{
+    text-align: center;
+}
